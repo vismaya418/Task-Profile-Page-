@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Settings</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1 class="title">Profile Settings</h1>
+
+  <div class="profile-container">
+
+    <!-- Profile Image + Upload -->
+    <div class="profile-left">
+      <img id="profilePreview" class="profile-pic" src="https://via.placeholder.com/160" alt="Profile Photo" />
+
+      <label class="file-upload">
+        <input type="file" id="profileInput" accept="image/*" />
+      </label>
+    </div>
+
+    <!-- Form (Right Side) -->
+    <div class="profile-right">
+
+      <div class="row">
+        <div class="input-box">
+          <label>First Name</label>
+          <input type="text" placeholder="Enter first name" />
+        </div>
+
+        <div class="input-box">
+          <label>Last Name</label>
+          <input type="text" placeholder="Enter last name" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-box-full">
+          <label>Username</label>
+          <input type="text" placeholder="Enter username" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-box">
+          <label>Email</label>
+          <input type="email" placeholder="Enter your email" />
+        </div>
+
+        <div class="input-box">
+          <label>Contact Number</label>
+          <input type="text" placeholder="Enter contact number" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-box">
+          <label>Date of Birth</label>
+          <input type="date" />
+        </div>
+
+        <div class="input-box">
+          <label>Education</label>
+          <input type="text" placeholder="Enter your education" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-box">
+          <label>Country</label>
+          <input type="text" placeholder="Enter your country" />
+        </div>
+
+        <div class="input-box">
+          <label>LinkedIn Profile</label>
+          <input type="text" placeholder="Enter LinkedIn URL" />
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-box-full">
+          <label>Github Profile</label>
+          <input type="text" placeholder="Enter Github URL" />
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
